@@ -138,45 +138,7 @@ img{
     color: #fff;
 }
 
-/*デスクトップ版
------------------------------*/
-@media(min-width: 800px){
-    /*見出し*/
-    .page-title{
-        font-size: 5rem;
-    }
-    .heading-large{
-        font-size: 4rem;
-    }
-    /*ヘッダー*/
-    .page-header{
-        display: flex;
-        justify-content: space-between;
-        padding-top: 1.5rem;
-    }
-    .main-nav{
-        font-size: 2rem;
-    }
 
-
-
-    /*HOME*/
-    .cover-home{
-        background-image: url(../images/cover-home-l.webp);
-    }
-    .about{
-        margin: 4rem auto 0;
-    }
-
-    /*フッター*/
-    .page-footer{
-        background-image: url(../images/footer-l.webp);
-        padding-top: 12rem;
-    }
-    .info th {
-        padding-left: 2.5rem;
-    }
-}
 
 /*ヘッダーカバー画像
 ---------------------*/
@@ -268,4 +230,70 @@ img{
 }
 side-menu a:hover{
     color: #0bd;
+}
+
+/*デスクトップ版
+-----------------------------*/
+@media(min-width: 800px){
+    /*見出し*/
+    .page-title{
+        font-size: 5rem;
+    }
+    .heading-large{
+        font-size: 4rem;
+    }
+    .post-title{
+        font-size: 2rem;
+    }
+    /*ヘッダー*/
+    .page-header{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1.5rem;
+    }
+    .main-nav{
+        font-size: 2rem;
+    }
+    /*ヘッダーカバー画像*/
+    .sub-cover{
+        height: 400px;
+        margin-bottom: 6rem;
+    }
+
+
+
+    /*HOME*/
+    .cover-home{
+        background-image: url(../images/cover-home-l.webp);
+    }
+    .about{
+        margin: 4rem auto 0;
+    }
+    /*NEWS*/
+    .cover-news{
+        background-image: url(../images/cover-news-l.webp);
+    }
+    .news-contents{
+        display: flex;
+        justify-content: space-between;
+    }
+    .post{
+        width: 70%;
+    }
+    .sidebar{
+        width: 22%;
+    }
+    .sidebar .heading-medium{
+        line-height: 1;
+        margin-bottom: 1rem;
+    }
+
+    /*フッター*/
+    .page-footer{
+        background-image: url(../images/footer-l.webp);
+        padding-top: 12rem;
+    }
+    .info th {
+        padding-left: 2.5rem;
+    }
 }
